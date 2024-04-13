@@ -1,26 +1,22 @@
-# AutomationApkInfo
-This is an example of a mobile automation using Serenity as a framework, Appium and coding in Java
+# Serenity-Mobile-iOS
+This is an example of a mobile ios automation using Serenity as a framework, Appium and coding in Java
 
-The app that you need to install to run it: https://play.google.com/store/apps/details?id=com.wt.apkinfo
 
 Remember change the capabilities of your mobile in the serenity.properties 
 ```
 appium.deviceName = ESU4C18A16000384
 appium.platformVersion = 9
+appium...
 ```
 ------------
-You can download the app in: https://github.com/saucelabs/sample-app-mobile/releases
-and need to change in serenity.properties: 
-```
-appium.app = PATH_DOWNLOADED_APP
-```
-------------
+You can download the source code for generate the iOS app in: [Proyecto Base Integrationtest Flutter](https://gitlab.com/calidad_de_software/digital-assests/pruebas-mobile/flutter-integration-test-bdd-dart/proyecto-base-integrationtest-flutter)
 
-To run
-```
-appium server
-# and execute the appium inspector if you work with appium 2
-```
-If you want to change the version you can see the releases and change the link in the same property.
+## Acknowledgment
+
+| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://github.com/mauroibarra) <br/> |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+
+
 
 
